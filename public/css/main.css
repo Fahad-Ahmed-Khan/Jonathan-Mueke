@@ -1,0 +1,282 @@
+*{
+font-family:Mulish;
+}
+
+.navbar{
+
+}
+
+.container-fluid{
+padding-left:0;
+}
+
+.navbar-light .navbar-nav .nav-link{
+font-weight:800;
+font-size:16px;
+color:#3A3A3A;
+}
+
+.navbar-light .navbar-nav .nav-link.active{
+color:#fcd600;
+}
+
+.banner-container{
+/*display:flex;*/
+align-items:center;
+justify-content:center;
+}
+.bg-banner{
+
+}
+
+.banner-container .banner{
+background:white;
+display:flex;
+align-items:center;
+justify-content:center;
+flex-wrap:wrap;
+overflow:hidden;
+}
+
+.banner-container .banner .bg-banner{
+background-image:url("/../../images/bg-banner.png");
+background-position: 0px 0px; 
+background-repeat: no-repeat;
+background-size: 480px 522px;
+width:100%;
+height:100vh;
+flex: 1 1 350px;
+padding:15px;
+text-align:center;
+}
+
+/*.banner-container .banner .bg-banner img{
+width:auto;
+}*/
+
+.banner-container .banner .content{
+flex: 1 1 250px;
+text-align:center;
+padding:10px;	
+}
+
+.banner-container .banner .content span{
+color:#00A149;
+font-family:Mulish;
+font-size:36px;
+font-weight:800;
+
+}
+
+.banner-container .banner .content p{
+color:#00A149;
+font-family:Mulish;
+font-size:36px;
+font-weight:800;
+text-align:left;
+}
+
+.banner-container .banner .mueke{
+position:relative;
+padding:10px;
+flex: 1 1 300px;
+}
+
+.banner-container .banner .mueke img{
+width:auto;
+}
+
+
+
+.banner-container .banner .mueke .socials{
+background-image:url("/../../images/jmueke.png");
+background-position: right center; 
+background-repeat: no-repeat;
+background-size: 500px 522px;
+width:100%;
+height:100vh;
+position:relative;
+z-index:1;
+}
+
+
+#section-1{
+margin-top:10%;
+}
+#ga{margin-top:15%;	}
+#stats-1{
+margin-top:15%;	
+}
+
+
+#bg-mueke-img{
+width:629px;
+}
+
+.btn-donate-main{
+width: 139px;
+height: 52px;
+}
+.btn-engage{
+width: 139px;
+height: 52px;
+background: #218F32;
+}
+.bg-light{
+height:auto;
+background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity)) !important;
+}
+
+.bg-mueke{
+background-image:url("/../../images/jmueke.png");
+background-position: right center; 
+background-size:500px 500px;
+background-repeat:no-repeat;
+width:auto;
+height:100%;
+}
+
+.bg-socials{
+background-image:url("/../../images/socials-bg.png");
+background-position: right center;
+background-size:200px 70px;
+background-repeat:no-repeat; 
+width:auto;
+height:10vh;
+}
+
+
+.divider{
+width:5%;
+margin-top:2%;
+padding-top:8px;
+background: #F1D100;
+}
+
+.bg-image{
+	
+}
+
+.button-outline{
+width:251px;
+height:52px;
+border: 2px solid #00A149;
+}
+
+.button-donate{
+width:138px;
+height:52px;
+background:#00A149;
+font-size:14px;
+font-weight:bold;
+}
+
+.button-engage{
+width:138px;
+height:52px;
+background:#00A149;
+font-size:14px;
+font-weight:bold;
+}
+
+.bg-image-4{
+background-image:url("/../../images/bgback.png");
+
+background-repeat: no-repeat;
+background-size:cover;
+width:auto;
+height:auto;
+}
+.hr-1-1{
+padding:10px;
+width:10px;	
+}
+#who-is{margin-top:20%;}
+.bg-back-2{
+background:#F4F6F9;
+margin-top:50%;
+}
+
+#inputFirstName{
+height:58px;
+}
+
+#inputLastName{
+height:58px;	
+}
+
+#inputEmail{
+height:58px;
+}
+
+#inputPhone{
+height:58px;	
+}
+
+#inputMessage{
+height:192px;
+}
+
+.btn-contact{
+background: #218F32;
+height:80px;	
+}
+
+.bg-sidebar{
+background: #218F32;
+}
+
+.breadcrumb-divider{
+width:5%;
+margin-top:2%;
+padding-top:8px;
+background:#fcd600;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #218F32;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #218F32;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.single-input {
+display: block;
+width: 100%;
+line-height: 40px;
+border: none;
+outline: none;
+background: #f9f9ff;
+padding: 0 20px;
+}
+
+.input-group-icon {
+position: relative;
+}
+
+.input-group-icon .icon {
+position: absolute;
+left: 20px;
+top: 0;
+line-height: 40px;
+z-index: 3;
+}
+
+.input-group-icon .icon i {
+color: #797979;
+}
+
+.input-group-icon .single-input {
+padding-left: 45px;
+}
